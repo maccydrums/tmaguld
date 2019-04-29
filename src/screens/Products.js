@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
+import ProductSlider from '../components/ProductSlider';
 
 class Products extends Component {
   render() {
@@ -9,7 +10,7 @@ class Products extends Component {
       <div className = 'wrapper'>
         <Header/>
         <Nav/>
-        <h1 style = {{marginBottom: '50px'}}>Products</h1>
+        <ProductSlider/>
         <Footer/>
       </div>
     );

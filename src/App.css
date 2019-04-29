@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-* {
+ * {
   padding: 0px;
-  margin: 10px;
+  margin-top: 10px;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   color: rgb(73, 71, 71);
@@ -20,12 +20,11 @@
 
 .nav {
   height: 100px;
-  width: 60%;
+  width: 45%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   font-size: 28px;
-
 }
 
 .nav a {
@@ -47,10 +46,9 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 10px;
-  width: 85%;
-  height: 400px;
+  width: 75%;
+  height: 370px;
   background: transparent;
-  border-bottom: 2px solid #909090;
 }
 
 .mainbox {
@@ -81,6 +79,8 @@
   background-color: transparent;
   flex-direction: row;
   justify-content: center;
+  border-top: 2px solid #909090;
+  margin-bottom: 20px;
 }
 
 .section-one {
@@ -91,6 +91,11 @@
 
 .section-one h2 {
   font-size: 21px;
+  margin-top: 20px;
+}
+
+.section-one img {
+  margin-bottom: 10px;
 }
 
 .section-two {
@@ -100,5 +105,8 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  margin-top: -15px;
+}
+
+.section-two img {
+  margin-right: 20px;
 }
